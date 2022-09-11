@@ -17,6 +17,12 @@ int main (void)
 		{
 			x++;
 			continue;
+		
+		}
+		else
+		{
+			putchar(alphabet[x]);
+			x++;
 		}
 	}
 	putchar('\n');
