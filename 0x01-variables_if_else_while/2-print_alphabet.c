@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	charalphabet[] = "abcdefghijklmnopqrstuvwxyz";
+	char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
 	int x = 0;
 
 	while (x <= 25)
