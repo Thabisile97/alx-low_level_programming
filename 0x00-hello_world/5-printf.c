@@ -1,15 +1,16 @@
-#!/bin/bash
 #include <stdio.h>
 
 /**
- * main - print the string in the put function
+ * main- main entry function
  *
- * Description: using the main function
- * this program prints "programming is like building a multillngual puzzle
- * Return: 0
+ *
+ * Return: returns 0 (zero)
  */
+
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art ,\n");
+	char sent [] = "with proper grammar, but the outcome is a piece of art,\n";
+
+	printf("%s", sent);
 	return (0);
 }
