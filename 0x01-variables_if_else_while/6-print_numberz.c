@@ -1,4 +1,4 @@
-#incluse <stdio.>
+#include <stdio.>
 
 /**
  * main - main entry of a program
