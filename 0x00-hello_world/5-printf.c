@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	char sent [] = "with proper grammar, but the outcome is a piece of art,\n";
+	char sent[] = "with proper grammar, but the outcome is a piece of art,\n";
 
 	printf("%s", sent);
 	return (0);
