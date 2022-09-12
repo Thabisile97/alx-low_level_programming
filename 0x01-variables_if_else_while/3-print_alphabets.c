@@ -12,18 +12,19 @@ int main(void)
 	int y = 0;
 
 	for (x = 0; x < 2; x++)
-
 	{
 		while (y <= 25)
-	{		if (x == 0)
-			        putchar(alphabet[y]);						
-		else
-		        	putchar(toupper(alphabet[y]));
-		y++;
+		{
+			if (x == 0)
+				putchar (alphabet[y]);
+			else
+				putchar(toupper(alphabet[y]));
+			y++;
+		}
+		y = o;
 	}
-	y = 0;
-}
-putchar('\n');
+	putchar('/n');
 
-return (0);
+	return (0);
 }
+
