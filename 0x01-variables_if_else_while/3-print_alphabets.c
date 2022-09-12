@@ -16,14 +16,14 @@ int main(void)
 		while (y <= 25)
 		{
 			if (x == 0)
-				putchar (alphabet[y]);
+				putchar(alphabet[y]);
 			else
 				putchar(toupper(alphabet[y]));
 			y++;
 		}
 		y = o;
 	}
-	putchar('/n');
+	putchar('\n');
 
 	return (0);
 }
