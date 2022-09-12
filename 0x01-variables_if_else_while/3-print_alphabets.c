@@ -11,7 +11,7 @@ int main(void)
 	int x;
 	int y = 0;
 
-	for (x = 0; x < 2; x++)
+	for (x = 0; < 2; x++)
 	{
 		while (y <= 25)
 		{
@@ -21,10 +21,9 @@ int main(void)
 				putchar(toupper(alphabet[y]));
 			y++;
 		}
-		y = o;
+		y = 0;
 	}
 	putchar('\n');
 
 	return (0);
 }
-
