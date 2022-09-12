@@ -1,29 +1,22 @@
 #include <stdio.h>
-#include <ctype.h>
 /**
- * main - main is the entry point of a program
+ * main - print if the number is positive, zero, or negative
  *
- * Return: returns 0 (zero)
+ * Description: using the main function
+ * this program prints "Programming is positive, zero, or negative
+ * Return: 0
  */
 int main(void)
 {
-	char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
-	int x;
-	int y = 0;
-
-	for (x = 0; < 2; x++)
-	{
-		while (y <= 25)
-		{
-			if (x == 0)
-				putchar(alphabet[y]);
-			else
-				putchar(toupper(alphabet[y]));
-			y++;
-		}
-		y = 0;
-	}
-	putchar('\n');
-
-	return (0);
+	char ch;
+       for (ch = 'a' ; ch <= 'z' ; ch++)
+       {
+	       putchar(ch);
+       }
+       for (ch = 'A' ; ch <= 'Z' ; ch++)
+       {
+	       putchar(ch);
+       }
+       putchar('\n');
+       return (0);
 }
